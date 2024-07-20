@@ -1,0 +1,26 @@
+1. Introduction
+2. Selection statements
+    if,if-else,switch
+3. iterative statements
+    while,do-while,for,foreach
+4. transfer statements
+    break,continue,return,[dowhile vs continue]
+Flow control statements
+=======================
+        It decides the order in which the control will be trasfered.
+flow control
+============
+a. selective statement
+    1. if
+    2. if else
+    3. switch
+b. iterative statement
+    1. while
+    2. dowhile
+    3. for
+    4. foreach
+c. transfer statements
+    a. break
+    b. continue
+    c. return
+    d. System.exit(0)

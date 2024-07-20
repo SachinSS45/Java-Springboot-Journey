@@ -12,11 +12,11 @@ public class Program1{
 		boolean isPresent = true; //No Error
 		
 		//We can store values either 'true' or 'false' => Case Sensitive
-		boolean isAbsent  = True; //CE : Can't find Symbol (True)
+		//boolean isAbsent  = True; //CE : Can't find Symbol (True)
 
 		//We can't convert int to boolean
 
-		boolean isMarried = 1; //CE : Incompaitable types : int can't be converted into boolean
+		//boolean isMarried = 1; //CE : Incompaitable types : int can't be converted into boolean
 
 
 
