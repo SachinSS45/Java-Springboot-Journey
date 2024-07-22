@@ -5,7 +5,7 @@ public class Program6{
 	public static void main(String[] args){
 
 		int x = 0;
-
+		//Ex : 1
 		switch(x){
 
 			case 0: System.out.println("0");
@@ -20,6 +20,7 @@ public class Program6{
 			    2
 			    default 
 		*/
+		//Ex : 2
 		switch(x){
 
 			case 0: System.out.println("0");
@@ -32,6 +33,7 @@ public class Program6{
 		  	    0		     1	      2		      default
 		  	    1			      default
 		 */
+		//Ex : 3
 		switch(x){
 			default : System.out.println("Default");
 			case 0: System.out.println("0");
@@ -39,12 +41,13 @@ public class Program6{
 				break;
 			case 2: System.out.println("2");
 		}
+
 		// Output : //Even though default block at first line it will execute at last
 		// if x = 0  O/p : 0 1
 		// if x = 1  O/p : 1
 		// if x = 2  O/p : 2
 		// if x = 3  O/p : Default 0 1 
-
+		//Ex : 4
 		switch(x){
 			case 0:System.out.println("0");
 			default : System.out.println("Default");
@@ -52,14 +55,14 @@ public class Program6{
 		} // We can write default label anywhere inside switch but we can't write more than once
 		// Output : 0 Default 1
 
-		
+		//Ex : 5
 		switch(x){
 			default : System.out.println("Default - 1");
 			case 0: System.out.println("0");
 			case 1: System.out.println("1");
 				break;
 			case 2: System.out.println("2");
-			default : System.out.println("Default - 2");
+		//	default : System.out.println("Default - 2"); Duplicate default label
 		}
 			
 
