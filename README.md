@@ -12,4 +12,7 @@ Welcome to my Java Spring Boot journey repository! Here, I document my daily lea
 <span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day6_SwitchStatement"> Day6_SwitchStatement</a> : Learned about switch statement and fallthrough inside switch</span>
 <br/>
 <span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day6_Loops"> Day7_Loops</a> : Learned about while loops </span>
+<br/>
+<span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day7_Loops2"> Day7_Loops2</a> : Learned about do-while loop and for loop</span>
+
 
