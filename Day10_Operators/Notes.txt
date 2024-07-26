@@ -1,0 +1,14 @@
+++++++++++++++++++++++++++++++++Operators++++++++++++++++++++++++++++++++++++++++++
+1. Increment and decrement operator
+2. Arithmetic operator
+3. Relational operator
+4. Equality operator
+5. instanceof operator
+6. bitwise operator
+7. shortcircuit operator
+8. typecast operator
+9. assignment operator
+10.conditional operator
+11. [] operator
+12. precedence of operator
+13. evaluation of java operands
