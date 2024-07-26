@@ -16,4 +16,7 @@ Welcome to my Java Spring Boot journey repository! Here, I document my daily lea
 <span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day8_Loops2"> Day8_Loops2</a> : Learned about do-while loop and for loop</span>
 <br/>
 <span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day9_BreakContinue"> Day9_BreakContinue</a> : Learned about break and continue , where we can use ? </span>
+<br/>
+<span><a href="https://github.com/SachinSS45/Java-Springboot-Journey/tree/master/Day10_Operators"> Day10_Operators</a> : Learned about all the operators present in java : 1)Unary 2)Arithmetic 3)Realational 4)Equality 5) Bitwise 6)ShortCircuit 7)TypeCast 8)Assignment 9)Conditonal(Ternary) etc . In future we will learn about 1) instanceof() 2) [] Operator </span>
+
 
