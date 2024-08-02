@@ -1,5 +1,5 @@
 //Porgram to addition of 2 numbers by using command line arguments
-
+/* Input : from commandLine as : java Program5 10 20 */
 public class Program5{
 
 	public static void main(String[] args){
@@ -9,6 +9,6 @@ public class Program5{
 
 		int result = num1 + num2;
 
-		System.out.println("Sum = " + result);
+		System.out.println("Sum = " + result);//30
 	}
 }
