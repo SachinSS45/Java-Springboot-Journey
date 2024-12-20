@@ -17,7 +17,6 @@ class Parent{
         System.out.println("Parent Method");
     }
 }
-
 class Child extends Parent{
 
     public void methodTwo(){
@@ -31,7 +30,6 @@ public class Test {
         Parent p = new Parent();
         p.methodOne();//Parent Method
         //p.methodTwo();//can't find symbol
-
         System.out.println();
 
         Child c = new Child();

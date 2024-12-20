@@ -21,6 +21,7 @@ public class Program2 {
         Child1 c = new Child1();
     }
 }
+
 /*
   Output : Parent Constructor
            Parent Constructor
