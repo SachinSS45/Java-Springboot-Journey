@@ -6,7 +6,6 @@ public class Program01 {
         LinkedList ll = new LinkedList();
         ll.add("Sachin");
         ll.add(30);
-        ll.add("shetkar");
         ll.add(2,"Hero");
         System.out.println(ll);//[Sachin, 30, Hero, shetkar]
 
@@ -14,6 +13,7 @@ public class Program01 {
         ll.addFirst("Mr.");
         //to set at particular index 
         ll.set(2,"Surayakant");
-        System.out.println(ll);
+        System.out.println(ll);//[Mr., Sachin, Surayakant, Hero, shetkar]
+
     }
 }
