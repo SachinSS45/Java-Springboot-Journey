@@ -25,3 +25,10 @@
 - It is the Child Interface of Collection.
 - If we want to Represent a Group of Individual Objects as a Single Entity where Duplicates are Not allowed and Insertion Order is Not Preserved then we should go for Set.
 - Set Interface doesn't contain any new Methods and Hence we have to Use Only Collection Interface Methods.
+### HashSet
+1. Duplicates are not allowed,if we try to add it would not throw any error rather it would return false.
+2. Internal DataStructure: **Hashtable**
+3. null insertion is possible.
+4. heterogenous data elements can be added.
+5. If our frequent operation is search, then the best choice is HashSet.
+6. It implements Serializable,Cloneable, but not random access.
