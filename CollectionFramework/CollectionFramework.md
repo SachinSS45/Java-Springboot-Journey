@@ -28,6 +28,8 @@
 - It is the Child Interface of Collection.
 - If we want to Represent a Group of Individual Objects as a Single Entity where Duplicates are Not allowed and Insertion Order is Not Preserved then we should go for Set.
 - Set Interface doesn't contain any new Methods and Hence we have to Use Only Collection Interface Methods.
+<details> <summary><strong>🔗HashSet & LinkedHashSet</strong></summary>
+  
 ### HashSet
 1. Duplicates are not allowed,if we try to add it would not throw any error rather it would return false.
 2. Internal DataStructure: **Hashtable**
@@ -104,6 +106,7 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 #### RealTime Example : 
 - Cache Implementation : In simple caching systems where you want to keep track of unique items in the order they were accessed or inserted, so you can evict the oldest item when cache size exceeds a limit.
 - Tracking History or Recently Visited Pages : For browser history or recent files list where duplicates are not allowed, but the insertion order needs to be maintained for displaying.
+</details>
 ### SortedSet (Interface)    
 
 - It is the **child interface** of `Set`. 
