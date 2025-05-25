@@ -1,5 +1,7 @@
 # Collection Framework : 
->> ## Set Interface : 
+<details>
+<summary><strong>📂 Set Interface</strong></summary>
+## Set Interface : 
                                 java.util.Collection (Interface) - Java 1.2
                                                ↑
                                  java.util.Set (Interface) - Java 1.2
@@ -13,7 +15,7 @@
                                                               java.util.TreeSet - Java 1.2
                   
                              
-                       
+                   
 ### 🧠 Key Notes:
 - Set extends Collection
 - HashSet implements Set
@@ -101,7 +103,7 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 #### RealTime Example : 
 - Cache Implementation : In simple caching systems where you want to keep track of unique items in the order they were accessed or inserted, so you can evict the oldest item when cache size exceeds a limit.
 - Tracking History or Recently Visited Pages : For browser history or recent files list where duplicates are not allowed, but the insertion order needs to be maintained for displaying.
-# SortedSet (Interface)    
+### SortedSet (Interface)    
 
 - It is the **child interface** of `Set`. 
 - Represents a group of individual objects where **duplicates are not allowed**, and elements are **sorted** in some order.
@@ -117,7 +119,7 @@ All of these represent the same sorted set: `{1, 2, 3}`.
 
 ---
 
-## Specific Methods of SortedSet    
+### Specific Methods of SortedSet    
 
 | Method                                | Description                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------|
@@ -152,3 +154,4 @@ Given this sorted set:
 | `comparator()`              | `null`               |
 
 ---
+</details>
