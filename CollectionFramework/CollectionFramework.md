@@ -96,6 +96,6 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 #### Note:               
 - Insertion order is preserved, but duplicates are **not allowed**.
 - Use `LinkedHashSet` when you want a **cache-based application** where:
-  - Duplicates are not allowed         <-- nested bullet
+  - Duplicates are not allowed        
   - Insertion order must be preserved
 
