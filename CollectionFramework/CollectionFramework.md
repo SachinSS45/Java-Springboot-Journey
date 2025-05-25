@@ -43,5 +43,31 @@ In case of HashSet, **after filling 75% of the ratio only new HashSet will be cr
 4. HashSet s=new HashSet(Collection c);
 #### LoadFactor
 - After loading how much ratio,a new object will be created is called as "LoadFactor".
+```java
+//eg#1.
 import java.util.*;
-<pre> import java.util.*; public class Test { public static void main(String[] args) { // Underlying DataStructure: Hashtable // Introduced in JDK 1.2 HashSet hs = new HashSet(); hs.add("A"); hs.add("B"); hs.add("C"); hs.add("D"); hs.add("A"); // Duplicate, won't be added hs.add(null); // Allows one null System.out.println(hs); // Output: [null, A, B, C, D] - Order not guaranteed System.out.println(); // Underlying DataStructure: Hashtable + LinkedList // Introduced in JDK 1.4 LinkedHashSet lhs = new LinkedHashSet(); lhs.add("A"); lhs.add("B"); lhs.add("Z"); lhs.add("C"); lhs.add(10); // Allows heterogeneous elements System.out.println(lhs); // Output: [A, B, Z, C, 10] - Insertion order maintained } } </pre>
+public class Test{
+    public static void main(String[] args){
+        //Underlying datastructure is Hashtable
+        //JDK1.2 Version
+        HashSet hs = new HashSet();
+        hs.add("A");
+        hs.add("B");
+        hs.add("C");
+        hs.add("D");
+        hs.add("A");
+        hs.add(null);
+        System.out.println(hs);//[null, A, B, C, D]
+        System.out.println();
+        //Underlying DataStructure :: Hashtable + LinkedList
+        //JDK1.4 Version
+        LinkedHashSet lhs = new LinkedHashSet();
+        lhs.add("A");
+        lhs.add("B");
+        lhs.add("Z");
+        lhs.add("C");
+        lhs.add(10);
+        System.out.println(lhs);
+  }
+}
+```
