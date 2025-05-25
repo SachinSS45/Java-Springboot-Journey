@@ -103,7 +103,7 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 - Tracking History or Recently Visited Pages : For browser history or recent files list where duplicates are not allowed, but the insertion order needs to be maintained for displaying.
 # SortedSet (Interface)    
 
-- It is the **child interface** of `Set`.   <-- bullet point with bold and inline code
+- It is the **child interface** of `Set`. 
 - Represents a group of individual objects where **duplicates are not allowed**, and elements are **sorted** in some order.
 
 **Examples of SortedSets:**
