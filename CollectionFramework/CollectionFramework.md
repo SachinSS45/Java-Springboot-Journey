@@ -98,4 +98,6 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 - Use `LinkedHashSet` when you want a **cache-based application** where:
   - Duplicates are not allowed        
   - Insertion order must be preserved
-
+#### RealTime Example : 
+- Cache Implementation : In simple caching systems where you want to keep track of unique items in the order they were accessed or inserted, so you can evict the oldest item when cache size exceeds a limit.
+- Tracking History or Recently Visited Pages : For browser history or recent files list where duplicates are not allowed, but the insertion order needs to be maintained for displaying.
