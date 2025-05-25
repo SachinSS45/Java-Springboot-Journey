@@ -14,3 +14,9 @@
                   
                              
                        
+### 🧠 Key Notes:
+- Set extends Collection
+- HashSet implements Set
+- LinkedHashSet extends HashSet (✅ maintains insertion order)
+- TreeSet implements NavigableSet → SortedSet → Set
+- NavigableSet introduced in Java 1.6
