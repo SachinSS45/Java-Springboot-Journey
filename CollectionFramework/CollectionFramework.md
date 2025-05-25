@@ -55,9 +55,9 @@ public class Test{
         hs.add("B");
         hs.add("C");
         hs.add("D");
-        hs.add("A");
-        hs.add(null);
-        System.out.println(hs);//[null, A, B, C, D]
+        hs.add("A"); //Duplicate, won't be allowed
+        hs.add(null); //Allows one null
+        System.out.println(hs);//Output : [null, A, B, C, D] - order not guaranteed
         System.out.println();
         //Underlying DataStructure :: Hashtable + LinkedList
         //JDK1.4 Version
@@ -66,8 +66,8 @@ public class Test{
         lhs.add("B");
         lhs.add("Z");
         lhs.add("C");
-        lhs.add(10);
-        System.out.println(lhs);
+        lhs.add(10); //Allows heterogeneous elements
+        System.out.println(lhs);//Output : [A, B, Z, C, 10] - Insertion order maintained
   }
 }
 ```
