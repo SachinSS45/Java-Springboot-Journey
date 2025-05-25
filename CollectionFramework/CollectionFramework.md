@@ -71,3 +71,32 @@ public class Test{
   }
 }
 ```
+### LinkedHashSet          <-- H3 heading (Sub Heading)
+
+- It is the **child class** of `HashSet`.     <-- bullet point with bold and inline code
+- **Data Structure:** Hashtable + LinkedList
+- **Duplicates:** Not allowed
+- **Insertion Order:** Preserved
+- **Null Allowed:** Yes
+
+All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except** that `LinkedHashSet` **preserves insertion order**.
+
+---
+
+#### Difference between HashSet and LinkedHashSet    <-- H2 heading (smaller title)
+
+| Feature           | HashSet                 | LinkedHashSet              |    <-- Table header
+|-------------------|-------------------------|----------------------------|
+| Underlying DS     | Hashtable               | Hashtable + LinkedList     |
+| Duplicates        | Not allowed             | Not allowed                |
+| Insertion Order   | Not preserved           | Preserved                 |
+| Introduced in     | Java 1.2                | Java 1.4                  |
+
+---
+
+#### Note:                <-- H3 heading (even smaller title)
+- Insertion order is preserved, but duplicates are **not allowed**.
+- Use `LinkedHashSet` when you want a **cache-based application** where:
+  - Duplicates are not allowed         <-- nested bullet
+  - Insertion order must be preserved
+
