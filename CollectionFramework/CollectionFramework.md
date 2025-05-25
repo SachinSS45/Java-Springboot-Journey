@@ -71,7 +71,7 @@ public class Test{
   }
 }
 ```
-### LinkedHashSet          <-- H3 heading (Sub Heading)
+### LinkedHashSet         
 
 - It is the **child class** of `HashSet`.     <-- bullet point with bold and inline code
 - **Data Structure:** Hashtable + LinkedList
@@ -83,9 +83,8 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 
 ---
 
-#### Difference between HashSet and LinkedHashSet    <-- H2 heading (smaller title)
-
-| Feature           | HashSet                 | LinkedHashSet              |    <-- Table header
+#### Difference between HashSet and LinkedHashSet    
+| Feature           | HashSet                 | LinkedHashSet              |    
 |-------------------|-------------------------|----------------------------|
 | Underlying DS     | Hashtable               | Hashtable + LinkedList     |
 | Duplicates        | Not allowed             | Not allowed                |
@@ -94,7 +93,7 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 
 ---
 
-#### Note:                <-- H3 heading (even smaller title)
+#### Note:               
 - Insertion order is preserved, but duplicates are **not allowed**.
 - Use `LinkedHashSet` when you want a **cache-based application** where:
   - Duplicates are not allowed         <-- nested bullet
