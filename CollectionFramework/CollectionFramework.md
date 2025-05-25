@@ -107,6 +107,8 @@ All constructors and methods of `HashSet` are part of `LinkedHashSet`, **except*
 - Cache Implementation : In simple caching systems where you want to keep track of unique items in the order they were accessed or inserted, so you can evict the oldest item when cache size exceeds a limit.
 - Tracking History or Recently Visited Pages : For browser history or recent files list where duplicates are not allowed, but the insertion order needs to be maintained for displaying.
 </details>
+
+<details> <summary><strong>🔗SortedSet</strong></summary>
 ### SortedSet (Interface)    
 
 - It is the **child interface** of `Set`. 
@@ -158,4 +160,5 @@ Given this sorted set:
 | `comparator()`              | `null`               |
 
 ---
+</details>
 </details>
