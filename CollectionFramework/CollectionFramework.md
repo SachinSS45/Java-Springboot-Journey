@@ -20,3 +20,9 @@
 - LinkedHashSet extends HashSet (✅ maintains insertion order)
 - TreeSet implements NavigableSet → SortedSet → Set
 - NavigableSet introduced in Java 1.6
+
+### Set:
+=> It is the Child Interface of Collection.
+=> If we want to Represent a Group of Individual Objects as a Single Entity where
+Duplicates are Not allowed and Insertion Order is Not Preserved then we should go for Set.
+=> Set Interface doesn't contain any new Methods and Hence we have to Use Only Collection Interface Methods.
