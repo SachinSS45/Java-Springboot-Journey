@@ -35,12 +35,12 @@
 
 Constructors
 ==========
-1.HashSet s=new HashSet(); Default initial capacity is 16
+1. HashSet s=new HashSet(); Default initial capacity is 16
 Default FillRation/load factor is 0.75
 **Note**: In case of ArrayList, default capacity is 10, after filling the complete capacity then new ArrayList would be created.
 In case of HashSet, **after filling 75% of the ratio only new HashSet will be created**.
-2.HashSet s=new HashSet(int intialiCapacity);//specified capacity with default fill ration=0.75
-3.HashSet s=new HashSet(int initaliCapacity,float fillRatio)
-4.HashSet s=new HashSet(Collection c);
+2. HashSet s=new HashSet(int intialiCapacity);//specified capacity with default fill ration=0.75
+3. HashSet s=new HashSet(int initaliCapacity,float fillRatio)
+4. HashSet s=new HashSet(Collection c);
 **LoadFactor**
 - After loading how much ratio,a new object will be created is called as "LoadFactor".
