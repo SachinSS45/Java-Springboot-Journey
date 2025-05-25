@@ -1,8 +1,15 @@
 # Collection Framework : 
-Collection (Interface) - Java 1.2  
-└── Set (Interface) - Java 1.2  
-    ├── HashSet - Java 1.2  
-    │   └── LinkedHashSet - Java 1.4  
-    └── SortedSet (Interface) - Java 1.2  
-        └── NavigableSet (Interface) - Java 1.6  
-            └── TreeSet - Java 1.2  
+                                java.util.Collection (Interface) - Java 1.2
+                                               ↑
+                                 java.util.Set (Interface) - Java 1.2
+                                              ↑
+                                --------------------------------------
+                               ↑                                     ↑
+            java.util.HashSet - Java 1.2                     java.util.SortedSet (Interface) - Java 1.2
+                               ↑                                               ↑
+            java.util.LinkedHashSet - Java 1.4                java.util.NavigableSet (Interface) - Java 1.6
+                                                                                 ↑
+                                                              java.util.TreeSet - Java 1.2
+                  
+                             
+                       
